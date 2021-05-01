@@ -15,9 +15,8 @@
  
 .App-items-list {
   margin-top: 12px;
-  height: 350px;
-  display: flex;
-  
+  height: 400px;
+  display: flex;  
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: rgb(0, 0, 0);
@@ -29,7 +28,19 @@
   margin-left: 12px;
   margin-top: 12px;
   margin-bottom: 12px;
-  padding-right: 6px;
+  padding-right: 6px;  
+}
+
+.App-items-futbol img {
+  margin-left: 12px;
+  height: 200px;
+  width: 30%;  
+}
+
+.App-items-basquet img {
+  margin-left: 12px;
+  height: 200px;
+  width: 30%;
 }
 
 .App-items-futbol h1 {
